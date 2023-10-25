@@ -1,6 +1,6 @@
 ![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/12ed5455-1b57-440b-ae3d-3b1b8ae6ba41)![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/16c6ff0c-a7d8-4237-9472-9c3fd6846b33)<h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
+<h3>Name: Manoj CHoudhary V</h3>
+<h3>Register Number :212221240025 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
 <h3>Theory:</h3>

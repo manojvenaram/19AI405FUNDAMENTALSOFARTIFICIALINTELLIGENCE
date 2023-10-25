@@ -117,7 +117,7 @@ C E <BR>
 ['A', 'B', 'C', 'D', 'E']
 ### Output 
 ![](1.png)
-(https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/16c6ff0c-a7d8-4237-9472-9c3fd6846b33)
+![](2.png)
 <hr>
 <h3>Result:</h3>
 <hr>

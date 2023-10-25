@@ -1,5 +1,5 @@
 <h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
-<h3>Name: Manoj CHoudhary V</h3>
+<h3>Name: Manoj Choudhary V</h3>
 <h3>Register Number :212221240025 </h3>
 <H3>Aim:</H3>
 <p> To Implement Depth First Search Traversal of a Graph using Python 3.</p>
@@ -81,9 +81,7 @@ traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 ```
 
-<hr>
-<h3>Sample Input</h3>
-<hr>
+## Sample Input
 8 9 <BR>
 A B <BR>
 A C <BR>
@@ -94,14 +92,10 @@ C G <BR>
 D F <BR>
 G F <BR>
 F H <BR>
-<hr>
-<h3>Sample Output</h3>
-<hr>
+
+## Sample Output
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
 
-<hr>
-
-<hr>
 <h3>Sample Input</h3>
 <hr>
 5 5 <BR>
@@ -113,9 +107,8 @@ C E <BR>
 
 <hr>
 <h3>Sample Output</h3>
-<hr>
 ['A', 'B', 'C', 'D', 'E']
-### Output 
+## Output 
 ![](1.png)
 ![](2.png)
 <hr>

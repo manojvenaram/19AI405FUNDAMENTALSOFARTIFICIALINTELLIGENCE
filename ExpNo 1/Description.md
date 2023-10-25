@@ -1,4 +1,4 @@
-![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/12ed5455-1b57-440b-ae3d-3b1b8ae6ba41)![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/16c6ff0c-a7d8-4237-9472-9c3fd6846b33)<h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
+<h1>ExpNo 1 : Implement Depth First Search Traversal of a Graph</h1> 
 <h3>Name: Manoj CHoudhary V</h3>
 <h3>Register Number :212221240025 </h3>
 <H3>Aim:</H3>
@@ -105,18 +105,19 @@ F H <BR>
 <h3>Sample Input</h3>
 <hr>
 5 5 <BR>
-0 1 <BR>
-0 2 <BR>
-0 3 <BR>
-2 3 <BR>
-2 4 <BR>
+A B <BR>
+A C <BR>
+A D <BR>
+C D <BR>
+C E <BR>
+
 <hr>
 <h3>Sample Output</h3>
 <hr>
-['0', '1', '2', '3', '4']
+['A', 'B', 'C', 'D', 'E']
 ### Output 
 ![](1.png)
-![](2.png)
+(https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/16c6ff0c-a7d8-4237-9472-9c3fd6846b33)
 <hr>
 <h3>Result:</h3>
 <hr>

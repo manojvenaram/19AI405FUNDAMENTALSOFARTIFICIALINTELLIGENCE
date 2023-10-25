@@ -105,14 +105,11 @@ A D <BR>
 C D <BR>
 C E <BR>
 
-<hr>
-<h3>Sample Output</h3>
+## Sample Output
 ['A', 'B', 'C', 'D', 'E']
 ## Output 
 ![](1.png)
 ![](2.png)
-<hr>
-<h3>Result:</h3>
-<hr>
+## Result:
 <p>Thus,a Graph was constructed and implementation of Depth First Search for the same graph was done successfully.</p>
 

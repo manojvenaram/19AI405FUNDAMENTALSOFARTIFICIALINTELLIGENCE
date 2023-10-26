@@ -2,9 +2,9 @@ Certainly, I've removed the HTML code and replaced the headings with Markdown fo
 
 ## Experiment No. 3: Implement A* Search Algorithm for a Graph
 
-**Name:** Saravanan N
+**Name:** MANOJ CHOUDHARY V
 
-**Register Number/Staff Id:** TSML006
+**Register Number:** 212221240025
 
 ### Aim:
 To Implement A* Search Algorithm for a Graph using Python 3.

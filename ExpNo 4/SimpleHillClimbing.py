@@ -17,7 +17,7 @@ def mutate_solution(solution):
     solution[ind]=random.choice(string.printable)
     return solution
 def SimpleHillClimbing():
-    answer="Artificial Intelligence"
+    answer="DEEP LEARNING"
     best=generate_random_solution(answer)
     best_score=evaluate(best,answer)
     while True:
@@ -29,8 +29,8 @@ def SimpleHillClimbing():
         if score<best_score:
             best=new_solution
             best_score=score
-#answer="Artificial Intelligence"
-#print(generate_random_solution(answer))
-#solution=generate_random_solution(answer)
-#print(evaluate(solution,answer))
+answer="DEEP LEARNING"
+print(generate_random_solution(answer))
+solution=generate_random_solution(answer)
+print(evaluate(solution,answer))
 SimpleHillClimbing()

@@ -208,4 +208,10 @@ if __name__ == "__main__":
 
 ![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/f2a5de0a-c550-40fb-a446-ee5406588993)
 
+## Result
+The Tic-Tac-Toe game with the alpha-beta pruning algorithm has been successfully implemented. The game allows two players, 'X' and 'O', to take turns and make moves on the game board. The game provides an AI opponent that uses the alpha-beta pruning algorithm to make intelligent moves and play against the player.
+
+The game will continue until there is a winner (either 'X' or 'O') or a tie, and then it will display the result of the game.
+
+Enjoy playing the game!
 

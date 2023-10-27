@@ -47,47 +47,49 @@ for i in range(e):
     graph[u].append(v)
     graph[v].append(u)
 
+start = 'A'
+path = []
+visited = defaultdict(bool)
+traversedpath = bfs(graph,start,visited,path)
+print(traversedpath)
+```
+### Output 1
+![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/aca0bf6c-b025-4b0c-905e-80cdc7e0da01)
+
+### Program
+```python
+from collections import deque
+from collections import defaultdict
+def bfs(graph,start,visited,path):
+    queue = deque()
+    path.append(start)
+    queue.append(start)
+    visited[start] = True
+    while len(queue) != 0:
+        tmpnode = queue.popleft()
+        for neighbour in graph[tmpnode]:
+            if visited[neighbour] == False:
+                path.append(neighbour)
+                queue.append(neighbour)
+                visited[neighbour] = True
+    return path
+
+graph = defaultdict(list)
+v,e = map(int,input().split())
+for i in range(e):
+    u,v = map(str,input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+
 start = '0'
 path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
+### Output 2
+![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/eb9cea82-8a1b-4796-a7d7-47401eab4914)
 
-### Sample Input
-```
-7 9
-A B
-A C
-A F
-C E
-C F
-C D
-D E
-D G
-G F
-```
-
-### Sample Output
-```
-['A', 'B', 'C', 'F', 'E', 'D', 'G']
-```
-
-### Sample Input
-```
-5 6
-0 1
-0 2
-1 2
-1 3
-2 4
-3 4
-```
-
-### Sample Output
-```
-['0', '1', '2', '3', '4']
-```
 
 ### Result:
 Thus, a graph was constructed, and the implementation of Breadth First Search for the same graph was done successfully.

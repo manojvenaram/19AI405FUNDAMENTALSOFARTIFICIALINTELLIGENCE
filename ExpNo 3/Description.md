@@ -26,7 +26,7 @@ To Implement A* Search Algorithm for a Graph using Python 3.
       iv) If a node with the same position as the successor is in the CLOSED list with a lower f than the successor, skip this successor; otherwise, add the node to the open list.
    e) Push q on the closed list.
 
-### Program I
+### Program I:
 ```python
 from collections import defaultdict
 
@@ -139,7 +139,7 @@ print("Path Found :",aStarAlgo(start_node, stop_node))
 ![Graph I](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
 
-### Output:
+### Output I:
 ![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/84a96cfc-1bab-451e-aadb-92920fbde998)
 
 ### Program II
@@ -246,7 +246,7 @@ print('Path found:',aStarAlgo(start_node, stop_node))
 ![Graph II](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 
 
-###  Output:
+###  Output II:
 ![image](https://github.com/manojvenaram/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/94165064/cb00ffbb-d7fe-46b8-914a-1256fa86d089)
 
 ## Result:
